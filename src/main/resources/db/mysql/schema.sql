@@ -4,8 +4,6 @@ ALTER DATABASE petclinic
   DEFAULT CHARACTER SET utf8
   DEFAULT COLLATE utf8_general_ci;
 
-CREATE USER 'root'@'3.6.58.197' IDENTIFIED BY 'root';
-
 GRANT ALL ON petclinic.* TO 'root'@'3.6.58.197';
 
 USE petclinic;
